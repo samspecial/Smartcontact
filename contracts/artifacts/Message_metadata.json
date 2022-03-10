@@ -1,0 +1,90 @@
+{
+  "compiler": {
+    "version": "0.8.12+commit.f00d7308"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "getMessage",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "message",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_message",
+            "type": "string"
+          }
+        ],
+        "name": "setMessage",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "contracts/Message.sol": "Message"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "contracts/Message.sol": {
+      "keccak256": "0x0bcec73eab0781d56721c927ed285892790a17194f8730d6baf4c6f039937c42",
+      "license": "GPL-3.0",
+      "urls": [
+        "bzz-raw://753daaa0bc685d9cc67cba8af2cb48a3f5732cf3ec3a4e15288bfbc1a8fadc73",
+        "dweb:/ipfs/QmQuGi4Z1P53U8SpUQxJDM6bBYgPe4jfk5QAmqXoaZx35T"
+      ]
+    }
+  },
+  "version": 1
+}
